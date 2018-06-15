@@ -1,0 +1,77 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+/* fin del receteo*/
+
+body{
+	font-size: 62.5% ;
+}
+
+h1{
+	font: normal 1.4em Verdana, Geneva, sans-serif; /* tamaño, tipo de letras */
+	background:-webkit-linear-gradient(top, #00F, #0CF); /* Difuminado */
+    width: 35%;
+	border-radius: 10px; /* redondear el contenedor*/
+	margin: 15px auto;
+	text-align: center; /* centrar el texto*/
+	padding: 15px;
+	color:#FFFFFF; /* colr de la fuente*/
+	box-shadow: #00F 5px 5px 10px; /* para sombrear el box*/
+	text-shadow: #FFF 2px 2px 3px; /* sombreado de texto */
+
+}
+h2{
+	font: bold 1.7em Verdana, Geneva, sans-serif; /*  bold es negrita, 1.7em es tamaño */ 
+	margin: 0;
+	padding: 5px 0px 5px 0px;
+	color:#000;
+}
+section{
+	width:91%; /*91% del ancho de la pantalla  */ 
+	border-top:1px dashed #999;/*  para la linea grisasea ensima de las imagenes, dashed es guiones*/ 
+	margin: 15px auto; /* centrar la linea de puntos grises  */ 
+	
+}
+
+figure{
+	float:left; /* hace que un elemento se ponga a la derecha (left) y lo rode, hace que las flores se alinean arriba de forma orizontal */ 
+}
+figure img{  /* img, se le aplicara a las etiquetas img que esten dentro de fiure. SELECTOR DESENDIENTE */ 
+	padding: 4px; /*  */  /* separa imagenes del borde del contenedor */ 
+	background:#666;
+	border-radius:20px;
+	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s; /* para la transicion, entra y sale, en 0.3 seg y tarda en hacerse eso 0.2seg*/
+	box-shadow: #999 5px 5px 10px;
+
+}
+figure img:hover{ /* pseudo clase*/
+	-webkit-transform:scale(1.5);
+
+}
+
+figcaption{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.3en;
+	text-align: center;
+	margin-top: 5px;
+}
+footer{
+	clear:both;
+	padding-top: 100px;
+}
+footer p{
+	font: 1.6em georgia "times new roman" , times, serif;
+	color: #666;
+	margin: 10px 8px; 
+}
