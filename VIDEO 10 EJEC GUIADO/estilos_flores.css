@@ -17,6 +17,8 @@ q:before, q:after { content:''; }
 body{
 
 	font-size: 62.5% ;
+	color:blue;
+
 }
 
 h1{
